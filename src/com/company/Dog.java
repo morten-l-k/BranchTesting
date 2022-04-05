@@ -6,4 +6,7 @@ public class Dog extends Animal {
     return "Vuf";
   }
 
+  public boolean eatFood(String foodType){
+    return true;
+  }
 }
