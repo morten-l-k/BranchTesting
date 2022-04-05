@@ -6,7 +6,10 @@ public class Main {
       Dog dog = new Dog("Thomas");
       Cat cat = new Cat("Jørgen");
 
-      System.out.println(dog.makeSound());
-      System.out.println(cat.makeSound());
+      dog.makeSound();
+      cat.makeSound();
+
+      dog.eatFood("Grain");
+      cat.eatFood("Fish");
     }
 }
